@@ -1,0 +1,75 @@
+.load-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../data/frostedBG_B.jpg");
+}
+$color: #252526;
+$color2: #313134;
+$color3: #3e3e40;
+$color4: #4a4a4d;
+$color5: #575759;
+
+@function makelongshadow($color, $color2, $color3, $color4, $color5) {
+  $val: 0px 0px $color;
+  @for $i from 1 through 20 {
+    $val: #{$val}, -#{$i}px #{$i}px #{$color};
+  }
+  @for $i from 21 through 40 {
+    $val: #{$val}, -#{$i}px #{$i}px #{$color2};
+  }
+  @for $i from 41 through 60 {
+    $val: #{$val}, -#{$i}px #{$i}px #{$color3};
+  }
+  @for $i from 61 through 80 {
+    $val: #{$val}, -#{$i}px #{$i}px #{$color4};
+  }
+  @for $i from 81 through 100 {
+    $val: #{$val}, -#{$i}px #{$i}px #{$color5};
+  }
+  @return $val;
+}
+
+@keyframes animateShadow {
+  0% {
+    text-shadow: makelongshadow($color, $color2, $color3, $color4, $color5);
+  }
+  20% {
+    text-shadow: makelongshadow($color2, $color3, $color4, $color5, $color);
+  }
+  40% {
+    text-shadow: makelongshadow($color3, $color4, $color5, $color, $color2);
+  }
+  60% {
+    text-shadow: makelongshadow($color4, $color5, $color, $color2, $color3);
+  }
+  80% {
+    text-shadow: makelongshadow($color5, $color, $color2, $color3, $color4);
+  }
+  100% {
+    text-shadow: makelongshadow($color, $color2, $color3, $color4, $color5);
+  }
+}
+
+.hi-container {
+  padding: 40px;
+  overflow: hidden;
+  width: 50vw;
+  font-weight: 600;
+  line-height: 0.8;
+  font-size: 150px;
+  text-align: center;
+  color: #edeee9;
+  font-family: "butler";
+  text-shadow: makelongshadow($color, $color2, $color3, $color4, $color5);
+  animation-name: animateShadow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@media (max-width: 550px) {
+  .hi-container {
+    font-size: 20vw;
+  }
+}

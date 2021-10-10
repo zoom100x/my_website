@@ -1,0 +1,149 @@
+
+/********* BROTHER 1816 **********/
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Bold.eot');
+    src: local('Brother 1816 Bold'), local('Brother1816-Bold'),
+        url('Brother1816-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Bold.woff2') format('woff2'),
+        url('Brother1816-Bold.woff') format('woff'),
+        url('Brother1816-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Medium.eot');
+    src: local('Brother 1816 Medium'), local('Brother1816-Medium'),
+        url('Brother1816-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Medium.woff2') format('woff2'),
+        url('Brother1816-Medium.woff') format('woff'),
+        url('Brother1816-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Regular.eot');
+    src: local('Brother 1816 Regular'), local('Brother1816-Regular'),
+        url('Brother1816-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Regular.woff2') format('woff2'),
+        url('Brother1816-Regular.woff') format('woff'),
+        url('Brother1816-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Light.eot');
+    src: local('Brother 1816 Light'), local('Brother1816-Light'),
+        url('Brother1816-Light.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Light.woff2') format('woff2'),
+        url('Brother1816-Light.woff') format('woff'),
+        url('Brother1816-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Black.eot');
+    src: local('Brother 1816 Black'), local('Brother1816-Black'),
+        url('Brother1816-Black.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Black.woff2') format('woff2'),
+        url('Brother1816-Black.woff') format('woff'),
+        url('Brother1816-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Thin.eot');
+    src: local('Brother 1816 Thin'), local('Brother1816-Thin'),
+        url('Brother1816-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Thin.woff2') format('woff2'),
+        url('Brother1816-Thin.woff') format('woff'),
+        url('Brother1816-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-ExtraBold.eot');
+    src: local('Brother 1816 ExtraBold'), local('Brother1816-ExtraBold'),
+        url('Brother1816-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-ExtraBold.woff2') format('woff2'),
+        url('Brother1816-ExtraBold.woff') format('woff'),
+        url('Brother1816-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/********* BUTLER **********/
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-UltraLight.woff2') format('woff2'),
+        url('Butler-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Medium.woff2') format('woff2'),
+        url('Butler-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Light.woff2') format('woff2'),
+        url('Butler-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Black.woff2') format('woff2'),
+        url('Butler-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-Bold.woff2') format('woff2'),
+        url('Butler-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-ExtraBold.woff2') format('woff2'),
+        url('Butler-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler.woff2') format('woff2'),
+        url('Butler.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+

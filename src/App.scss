@@ -1,0 +1,24 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+    background: url("./data/frostedBG.jpg");
+    .sections{
+        
+        width: 100vw;
+        height: calc(100vh - 150px);
+        position: relative;
+        top: 150px;
+        > *{
+            background: url("./data/frostedBG.jpg");
+            width: 100%;
+        }
+        .footer-section{
+            background: url("./data/frostedBG.jpg");
+            width: 100%;
+        }
+    }
+    
+}
+/* selecting text style */
+::-moz-selection { background: rgb(0, 0, 0); color: #fff; text-shadow: none; }
+::selection { background: rgb(0, 0, 0); color: #fff; text-shadow: none; }
