@@ -13,7 +13,7 @@ export default function Footer() {
       <h2>Have a project, idea or just want to chat? Drop me an email!</h2>
       <Fade delay={300}>
       <div className="email-container">
-          <a href="mailto:hello@oussamalloud.me">malloud321@gmail.com</a>
+          <a href="mailto:malloud321@gmail.com">malloud321@gmail.com</a>
       </div>
       </Fade>
       <Fade delay={300}>
