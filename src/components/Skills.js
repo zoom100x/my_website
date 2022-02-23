@@ -92,7 +92,7 @@ export default function Skills() {
             </Fade>
           </div>
           <Fades bottom>
-            <a href="/Assets/oussamalloud.pdf" className="bw-btn" download>
+            <a href="/Assets/oussamalloud_cv.pdf" className="bw-btn" download>
               <span>For more...</span>
             </a>
           </Fades>
